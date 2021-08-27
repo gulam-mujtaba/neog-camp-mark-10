@@ -1,3 +1,78 @@
-.body {
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+.container {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-align: center;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+
+  border-radius: 20px;
+}
+
+body {
+  background-color: #ffe6a2;
+  margin: 10px;
+}
+
+.heading {
+  color: #572e00;
+}
+
+.desc {
+  color: #004444;
+  font-weight: bolder;
+}
+#bill-amount {
+  border: solid;
+  border-radius: 1rem;
+  padding: 15px;
+  margin: 10px;
+  align-self: center;
+  width: 50%;
+  border-color: chocolate;
+}
+
+#cash-given {
+  border: solid;
+  border-radius: 1rem;
+  padding: 15px;
+  margin: 10px;
+  align-self: center;
+  width: 50%;
+  border-style: inset;
+  border-color: chocolate;
+}
+
+#click {
+  border: solid;
+  border-radius: 1rem;
+  padding: 10px;
+  margin: 5px;
+  align-self: center;
+  width: 20%;
+  font-weight: bolder;
+  color: rgb(255, 225, 126);
+  background-color: #b45700;
+  border-color: tomato;
+}
+
+button {
+}
+
+table,
+td,
+th {
+  padding: 3px;
+  background-color: #ffecb7;
+  border: 1.5px solid #da9b15;
+  border-collapse: collapse;
+  margin: 15px;
+}
+
+.table-heading {
+  color: #6e3b00;
 }

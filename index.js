@@ -1,7 +1,7 @@
 const billamt = document.querySelector("#bill-amount");
 const cashgvn = document.querySelector("#cash-given");
 const changebtn = document.querySelector("#click");
-const errmsg = document.querySelector("#error-messege");
+const messege = document.querySelector("#error-messege");
 const noofnotes = document.querySelectorAll(".notes");
 
 const avlnotes = [2000,500,200,100,20,10,5,1];
@@ -23,17 +23,18 @@ changebtn.addEventListener("click", function clickbutton(){
         }
 
     }
-)};
+);
+
 
 function messegegiven (text){
-    messegegiven.style.display = "block";
+    messege.style.display = "inline";
     messege.innerText = text;
 }
  function changecalculator (returnamt){
-     for(i=0; i > avlnotes.length; i++){
+     for( i=0; i < avlnotes.length; i++){
          const numberofnotes = Math.trunc(returnamt/avlnotes[i] );
          returnamt %= avlnotes[i];
-         noofnotes[i].innerText = noofnotes;
+         noofnotes[i].innerText = numberofnotes;
      }
 
  }
