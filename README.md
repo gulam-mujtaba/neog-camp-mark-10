@@ -1,4 +1,4 @@
-# Cash Manager App 
+# Cash Register Manager 
 This App calculates the change to be returned after a transation.
 1. Enter the bill amount.
 2. Enter the cash given.
